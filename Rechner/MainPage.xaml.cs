@@ -26,5 +26,20 @@ namespace Rechner
         {
             this.InitializeComponent();
         }
+
+        private void Button_Click_Ziffer(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Button_Click_Sieben(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Neun(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

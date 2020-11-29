@@ -29,8 +29,21 @@
         <TextBox x:Name="eingabe1" HorizontalAlignment="Center" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Grid.ColumnSpan="4" Width="216" Height="100" RenderTransformOrigin="0.467,1.848"/>
         <TextBox x:Name="eingabe2" Grid.ColumnSpan="4" HorizontalAlignment="Center" Height="100" Grid.Row="1" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="216"/>
         <TextBlock x:Name="ausgabe" Grid.ColumnSpan="4" Margin="0,0,0,0" Grid.Row="2" TextWrapping="Wrap"/>
-        <Button Content="7" Grid.Column="4" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Ziffer"/>
-        <Button Content="8" Grid.Column="5" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Ziffer"/>
-
+        <Button x:Name="Sieben" Content="7" Grid.Column="4" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Sieben"/>
+        <Button x:Name="Acht" Content="8" Grid.Column="5" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Acht"/>
+        <Button x:Name="Neun" Content="9" Grid.Column="6" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Neun"/>
+        <Button x:Name="Vier" Content="4" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Vier"/>
+        <Button x:Name="Fuenf" Content="5" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Fuenf"/>
+        <Button x:Name="Sechs" Content="6" Grid.Column="6" Grid.Row="1" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Sechs"/>
+        <Button x:Name="Eins" Content="1" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Eins"/>
+        <Button x:Name="Zwei" Content="2" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Zwei"/>
+        <Button x:Name="Drei" Content="3" Grid.Column="6" Grid.Row="2" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Drei"/>
+        <Button x:Name="Null" Content="0" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="3" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Null"/>
+        <Button Content="+" Grid.Row ="3" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" />
+        <Button Content="-" Grid.Column="1" Grid.Row ="3" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" />
+        <Button Content="," Grid.Column="6" Grid.Row ="3" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" Click="Button_Click_Ziffer"/>
+        <Button Content="C" Grid.Column="7" Grid.RowSpan="4" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30"/>
+        <Button Content="*" Grid.Column="2" Grid.Row ="3" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" />
+        <Button Content="/" Grid.Column="3" Grid.Row ="3" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" FontSize="30" />
     </Grid>
 </Page>
